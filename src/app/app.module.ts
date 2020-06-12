@@ -1,10 +1,10 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from "./app.component";
-import { AppRoutingModule } from "./app-routing.module";
-import { Test1Component, Test2Component } from "./test.component";
-import { DecorationComponent } from "./decorator/decorator.component";
+import {AppComponent} from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {Test1Component, Test2Component} from './test.component';
+import {DecorationComponent} from './decorator/decorator.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { DecorationComponent } from "./decorator/decorator.component";
     AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
