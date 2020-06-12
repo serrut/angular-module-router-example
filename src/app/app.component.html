@@ -1,0 +1,16 @@
+<div>
+  <h1>Hi {{name}}</h1>
+  <hr />
+  <div>
+    <li><a routerLink="/test1" routerLinkActive="active">First</a></li>
+    <li><a routerLink="/test2" routerLinkActive="active">Second</a></li>
+    <li><a routerLink="module1/page1" routerLinkActive="active">M1 First</a></li>
+    <li><a routerLink="module1/page2" routerLinkActive="active">M1 Second</a></li>
+    <li><a routerLink="module2/page1" routerLinkActive="active">M2 First</a></li>
+    <li><a routerLink="module2/page2" routerLinkActive="active">M2 Second</a></li>
+  </div>
+  <hr />
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
